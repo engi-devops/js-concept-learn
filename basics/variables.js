@@ -16,4 +16,14 @@ accountEmail = "ss@gmail.com";
 accountPassword = "change@123";
 accountCity = "Banglore";
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+// Create an array of objects containing name and value pairs
+const data = [
+    { name: "accountId", value: accountId },
+    { name: "accountEmail", value: accountEmail },
+    { name: "accountPassword", value: accountPassword },
+    { name: "accountCity", value: accountCity },
+    { name: "accountState", value: accountState }
+  ];
+  
+  // Print the array of objects using console.table()
+  console.table(data);
